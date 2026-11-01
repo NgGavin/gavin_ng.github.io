@@ -7,30 +7,36 @@
   <style>
     body {
       box-sizing: border-box;
-      max-width: 650px;
       min-height: 100vh;
-      margin: 0 auto;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
+      margin: 0;
+      display: grid;
+      place-items: center;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: #000;
       background: #fff;
     }
+
+    .content {
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 650px;
+      padding: 20px;
+      text-align: left;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Gavin Ng</h1>
-    <p><a href="mailto:grng@mit.edu">grng@mit.edu</a></p>
-  </header>
-  <main>
-    <p>I'm an MIT undergraduate in <a href="https://meche.mit.edu/">course 2</a>.</p>
-    <p>Previously, I've scanned groceries at Publix, manufactured yo-yos, and changed how we build gas turbines.</p>
-    <p>I'm interested in how you think about thinking. Do you want to know how I think?</p>
-    <p>Come find me on the <a href="https://mitathletics.com/sports/mcrewlt/roster/gavin-ng/14984">Charles</a>, the <a href="https://www.strava.com/athletes/123561453">Esplanade</a>, or <a href="https://www.linkedin.com/in/grng/">online</a>.</p>
-  </main>
+  <div class="content">
+    <header>
+      <h1>Gavin Ng</h1>
+      <p><a href="mailto:grng@mit.edu">grng@mit.edu</a></p>
+    </header>
+    <main>
+      <p>I'm an MIT undergraduate in <a href="https://meche.mit.edu/">course 2</a>.</p>
+      <p>Previously, I've scanned groceries at Publix, manufactured yo-yos, and changed how we build gas turbines.</p>
+      <p>I'm interested in how you think about thinking. Do you want to know how I think?</p>
+      <p>Come find me on the <a href="https://mitathletics.com/sports/mcrewlt/roster/gavin-ng/14984">Charles</a>, the <a href="https://www.strava.com/athletes/123561453">Esplanade</a>, or <a href="https://www.linkedin.com/in/grng/">online</a>.</p>
+    </main>
+  </div>
 </body>
 </html>
